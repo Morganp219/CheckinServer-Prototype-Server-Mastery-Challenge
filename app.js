@@ -201,7 +201,8 @@ app.get("/removePersonFromRoom/:roomId", (req, res)=> {
 })
 
 
+module.exports = app;
 
-app.listen(3000, () => {
-    console.log(`Server is Listening on 3000`)
-})
+// app.listen(3000, () => {
+//     console.log(`Server is Listening on 3000`)
+// })

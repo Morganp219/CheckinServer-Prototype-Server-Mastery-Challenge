@@ -12,7 +12,7 @@ const swaggerDefinition = {
       },
       servers: [
         {
-          url: 'http://localhost:3000/', // Adjust as needed
+          url: 'https://checkin-server.vercel.app/', // Adjust as needed
           description: 'Development server',
         },
       ],
